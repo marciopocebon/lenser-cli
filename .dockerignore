@@ -1,0 +1,14 @@
+node_modules/
+
+*.tar.gz
+*.tgz
+*.swp
+*.log
+*.zat
+
+Dockerfile
+.git
+.idea
+
+**/__tests__
+screenshots

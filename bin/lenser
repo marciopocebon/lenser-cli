@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+/* eslint-disable no-global-assign */
+
+'use strict'
+
+require = require('esm')(module)
+
+const logger = require('../src/logger')
+const { version } = require('../package.json')
+const RC = require('../src/rc').default
+
+logger.log(`Version: v${version}`)
+
+const rc = new RC()
+
+const program = require('commander')
+program
+  .version(version)
+  .parse(process.argv)

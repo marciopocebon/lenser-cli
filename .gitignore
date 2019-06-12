@@ -1,0 +1,10 @@
+node_modules/
+
+*.tar.gz
+*.tgz
+*.swp
+*.log
+*.zat
+
+.DS_Store
+.idea
