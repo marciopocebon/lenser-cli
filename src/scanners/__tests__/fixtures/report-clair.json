@@ -1,0 +1,315 @@
+{
+    "image": "nginx:1.11.6-alpine",
+    "unapproved": [
+        "CVE-2017-12883",
+        "CVE-2016-1238",
+        "CVE-2017-12837",
+        "CVE-2016-6906",
+        "CVE-2016-10168",
+        "CVE-2016-10166",
+        "CVE-2017-7890",
+        "CVE-2016-6912",
+        "CVE-2017-6362",
+        "CVE-2016-10167",
+        "CVE-2016-9317",
+        "CVE-2016-9318",
+        "CVE-2016-5131",
+        "CVE-2017-5969",
+        "CVE-2017-16931",
+        "CVE-2017-8105",
+        "CVE-2017-8287",
+        "CVE-2016-10244",
+        "CVE-2017-15873",
+        "CVE-2016-6301",
+        "CVE-2017-16544",
+        "CVE-2016-9841",
+        "CVE-2016-9842",
+        "CVE-2016-9843",
+        "CVE-2016-9840",
+        "CVE-2017-0379",
+        "CVE-2017-15650",
+        "CVE-2017-5029"
+    ],
+    "vulnerabilities": [
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2016-9317",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9317",
+            "severity": "High",
+            "fixedby": "2.2.4-r0"
+        },
+        {
+            "featurename": "perl",
+            "featureversion": "5.22.2-r0",
+            "vulnerability": "CVE-2016-1238",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1238",
+            "severity": "High",
+            "fixedby": "5.22.3-r0"
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1.2.8-r2",
+            "vulnerability": "CVE-2016-9843",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9843",
+            "severity": "High",
+            "fixedby": "1.2.11-r0"
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1.2.8-r2",
+            "vulnerability": "CVE-2016-9841",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9841",
+            "severity": "High",
+            "fixedby": "1.2.11-r0"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.24.2-r11",
+            "vulnerability": "CVE-2016-6301",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6301",
+            "severity": "High",
+            "fixedby": "1.24.2-r12"
+        },
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2016-10166",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10166",
+            "severity": "High",
+            "fixedby": "2.2.4-r0"
+        },
+        {
+            "featurename": "freetype",
+            "featureversion": "2.6.3-r0",
+            "vulnerability": "CVE-2017-8287",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8287",
+            "severity": "High",
+            "fixedby": "2.6.3-r1"
+        },
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2016-6912",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6912",
+            "severity": "High",
+            "fixedby": "2.2.4-r0"
+        },
+        {
+            "featurename": "freetype",
+            "featureversion": "2.6.3-r0",
+            "vulnerability": "CVE-2017-8105",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8105",
+            "severity": "High",
+            "fixedby": "2.6.3-r1"
+        },
+        {
+            "featurename": "libxml2",
+            "featureversion": "2.9.4-r0",
+            "vulnerability": "CVE-2017-16931",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16931",
+            "severity": "High",
+            "fixedby": "2.9.5-r0"
+        },
+        {
+            "featurename": "perl",
+            "featureversion": "5.22.2-r0",
+            "vulnerability": "CVE-2017-12883",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12883",
+            "severity": "Medium",
+            "fixedby": "5.22.3-r0"
+        },
+        {
+            "featurename": "libxml2",
+            "featureversion": "2.9.4-r0",
+            "vulnerability": "CVE-2016-9318",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9318",
+            "severity": "Medium",
+            "fixedby": "2.9.4-r2"
+        },
+        {
+            "featurename": "libxml2",
+            "featureversion": "2.9.4-r0",
+            "vulnerability": "CVE-2016-5131",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5131",
+            "severity": "Medium",
+            "fixedby": "2.9.4-r1"
+        },
+        {
+            "featurename": "musl",
+            "featureversion": "1.1.14-r14",
+            "vulnerability": "CVE-2017-15650",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15650",
+            "severity": "Medium",
+            "fixedby": "1.1.14-r16"
+        },
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2016-10167",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10167",
+            "severity": "Medium",
+            "fixedby": "2.2.4-r0"
+        },
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2017-6362",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6362",
+            "severity": "Medium",
+            "fixedby": "2.2.5-r0"
+        },
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2017-7890",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7890",
+            "severity": "Medium",
+            "fixedby": "2.2.5-r0"
+        },
+        {
+            "featurename": "freetype",
+            "featureversion": "2.6.3-r0",
+            "vulnerability": "CVE-2016-10244",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10244",
+            "severity": "Medium",
+            "fixedby": "2.6.3-r1"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.24.2-r11",
+            "vulnerability": "CVE-2017-15873",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15873",
+            "severity": "Medium",
+            "fixedby": "1.24.2-r13"
+        },
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2016-10168",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10168",
+            "severity": "Medium",
+            "fixedby": "2.2.4-r0"
+        },
+        {
+            "featurename": "busybox",
+            "featureversion": "1.24.2-r11",
+            "vulnerability": "CVE-2017-16544",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16544",
+            "severity": "Medium",
+            "fixedby": "1.24.2-r13"
+        },
+        {
+            "featurename": "gd",
+            "featureversion": "2.2.3-r1",
+            "vulnerability": "CVE-2016-6906",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6906",
+            "severity": "Medium",
+            "fixedby": "2.2.4-r0"
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1.2.8-r2",
+            "vulnerability": "CVE-2016-9842",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9842",
+            "severity": "Medium",
+            "fixedby": "1.2.11-r0"
+        },
+        {
+            "featurename": "perl",
+            "featureversion": "5.22.2-r0",
+            "vulnerability": "CVE-2017-12837",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12837",
+            "severity": "Medium",
+            "fixedby": "5.22.3-r0"
+        },
+        {
+            "featurename": "zlib",
+            "featureversion": "1.2.8-r2",
+            "vulnerability": "CVE-2016-9840",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9840",
+            "severity": "Medium",
+            "fixedby": "1.2.11-r0"
+        },
+        {
+            "featurename": "libgcrypt",
+            "featureversion": "1.7.0-r1",
+            "vulnerability": "CVE-2017-0379",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0379",
+            "severity": "Medium",
+            "fixedby": "1.7.9-r0"
+        },
+        {
+            "featurename": "libxslt",
+            "featureversion": "1.1.29-r0",
+            "vulnerability": "CVE-2017-5029",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5029",
+            "severity": "Medium",
+            "fixedby": "1.1.29-r1"
+        },
+        {
+            "featurename": "libxml2",
+            "featureversion": "2.9.4-r0",
+            "vulnerability": "CVE-2017-5969",
+            "namespace": "alpine:v3.4",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5969",
+            "severity": "Low",
+            "fixedby": "2.9.4-r3"
+        }
+    ]
+}

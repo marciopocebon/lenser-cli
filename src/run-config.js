@@ -4,12 +4,22 @@ import * as consoleWriter from './writers/console.js'
 import * as sumoWriter from './writers/sumo'
 import * as jsonWriter from './writers/json'
 import * as httpWriter from './writers/http'
+import * as clair from './scanners/clair'
 
 export default class RC {
   constructor () {
+    this.scanners = [clair]
     this.images = []
+    this.ip = 'localhost'
     this.failOn = 'low'
     this.writers = [consoleWriter]
+  }
+
+  withIp (ip) {
+    if (!/^\d+.\d+.\d+.\d+$/.test(ip)) throw new Error('Invalid IPv4 address')
+
+    this.ip = ip
+    return this
   }
 
   withImage (image) {

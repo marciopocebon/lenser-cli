@@ -1,11 +1,26 @@
 /* eslint-disable no-unused-expressions */
 
-import Rc from '../rc'
+import RC from '../run-config'
 
 describe('RC', () => {
   let rc
   beforeEach(() => {
-    rc = new Rc()
+    rc = new RC()
+  })
+
+  describe('withIp', () => {
+    it('should default to localhost', () => {
+      expect(rc.ip).to.equal('localhost')
+    })
+    it('should allow a valid ip address', () => {
+      rc.withIp('1.2.3.4')
+      expect(rc.ip).to.deep.equal('1.2.3.4')
+    })
+    it('should reject an invalid ip address', () => {
+      expect(() => {
+        rc.withIp('bad-value')
+      }).to.throw()
+    })
   })
 
   describe('withFailOn', () => {
